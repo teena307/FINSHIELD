@@ -147,3 +147,32 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+. Python
+venv/
+.venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local database files
+*.sqlite3
+*.db
+
+# Private uploads and temporary files
+uploads/
+private_uploads/
+*.tmp
+
+# TinyFish and other API credentials
+# Keep all real credentials in .env files
+
